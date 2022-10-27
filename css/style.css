@@ -1,0 +1,384 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: #2D5FC0;
+}
+section {
+    position: relative;
+    width: 1080px;
+    height: 640px;
+}
+header {
+    position: relative;
+    width: 1080px;
+    height: 80px;
+
+    
+}
+header > div.title {
+    position: absolute;
+    height: 36px;
+    left: 30px;
+    top: 22px;
+
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFF;
+}
+.thin {
+    font-weight: 300;
+}
+
+header > img {
+    position: absolute;
+    top: 15px;
+    left: 285px;
+    width: 190px;
+    height: 50px;
+}
+header > div.user {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 104px;
+    height: 30px;
+
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFF;
+}
+header  > div.user > span {
+    font-weight: 300;
+}
+/*메뉴영역*/
+section > div.menu {
+    position: relative;
+    float: left;/*왼쪽으로 정렬*/
+    box-sizing: border-box;
+    width: 250px;
+    height: 640px;
+    padding-top: 32px;
+    z-index: 1; /*맨 앞으로 보내기*/
+    background: #2D5FC0;
+    ;
+}
+section > div.menu > div.menu_item {
+    height: 69px;
+    width: 250px;
+    margin-bottom: 9px;
+    
+}
+section > div.menu > div.menu_item > a.inner {
+    box-sizing: border-box;
+    display: block; /*없으면 패딩안먹음*/
+    text-decoration: none;
+    height: 72px;
+    width: 235px;
+    margin-left: 30px;
+    padding: 20px 82px 23px 30px;
+
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFF;
+    border-radius: 30px 0px;
+    
+}
+/*active를 넣으면 선택됨*/
+a.inner.active {
+    background: #F5924A;
+}
+
+
+/*컨텐츠영역*/
+section > div.contents {
+    position: relative;
+    float: right;
+    /*position: absolute;*/
+    border-radius: 30px 0px 0px 0px;
+    width: 830px;
+    height: 640px;
+   /* right: 0px;
+    bottom: 0px;*/
+
+    background: white;
+}
+section > div.contents  >div.name {
+    position: absolute;
+    width: 100px;
+    height: 561px;
+    left: 50px;    
+    top: 50px;
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+section > div.contents  >div.name > span {
+    font-weight: 300;
+}
+section > div.contents > div.address {
+    position: absolute;
+    width: 329px;
+    height: 18px;
+    left: 50px;
+    top: 95px;
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+}
+section > div.contents > div.contentbox {
+    /*build square area */
+    position: absolute;
+    width: 228px;
+    height: 408px;
+    left: 58px;
+    top: 158px;
+    background: #FFCDCD;
+    border-radius: 13px;
+}
+section > div.contents > div.contentbox > img.team {
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 66px;
+top: 88px;
+}
+section > div.contents > div.contentbox > div.team_name {
+
+    position: absolute;
+    width: 166px;
+    height: 24px;
+    left: 21px;
+    top: 239px;
+    
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+section > div.contents > div.contentbox > div.team_content {
+    position: absolute;
+    width: 186px;
+    height: 49px;
+    left: 21px;
+    top: 276px;
+    
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    
+    color: #000000;
+}
+section > div.contents > div.contentbox > div.dots {
+    
+position: absolute;
+width: 6px;
+height: 6px;
+left: 191px;
+top: 234px;
+
+background: #EE0000;
+}
+
+
+section > div.contents > div.contentbox > div.notice {
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 22px;
+    top: 332px;
+    
+    background: #FFFFFF;
+    border-radius: 13px;
+    
+}
+section > div.contents > div.contentbox > div.notice > div.notice_text {
+    position: absolute;
+width: 76px;
+height: 18px;
+left: 16px;
+top:6px;
+
+font-family: 'S-Core Dream';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+
+section > div.contents > div.contentbox2 {
+    /*build square area */
+    position: absolute;
+    width: 228px;
+    height: 408px;
+    left: 305px;
+    top: 158px;
+    background: #FFC7BB;
+    border-radius: 13px;
+}
+section > div.contents > div.contentbox2 > img.garage {
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 66px;
+top: 88px;
+}
+section > div.contents > div.contentbox2 > div.garage_name {
+
+    position: absolute;
+    width: 166px;
+    height: 24px;
+    left: 21px;
+    top: 239px;
+    
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+section > div.contents > div.contentbox2 > div.garage_content {
+    position: absolute;
+    width: 186px;
+    height: 49px;
+    left: 21px;
+    top: 276px;
+    
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    
+    color: #000000;
+}
+section > div.contents > div.contentbox2 > div.round_dots {
+    
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 188px;
+    top: 234px;
+    border-radius: 10px; /*둥글게*/
+    background: #EE0000;
+    }
+
+
+section > div.contents > div.contentbox2 > div.notice {
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 22px;
+    top: 332px;
+    
+    background: #FFFFFF;
+    border-radius: 13px;
+    
+}
+section > div.contents > div.contentbox2 > div.notice > div.notice_text {
+    position: absolute;
+width: 76px;
+height: 18px;
+left: 16px;
+top:6px;
+
+font-family: 'S-Core Dream';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+section > div.contents > div.contentbox3 {
+    /*build square area */
+    position: absolute;
+    width: 228px;
+    height: 408px;
+    left: 552px;
+    top: 158px;
+    background: #E3ADC2;
+
+    border-radius: 13px;
+}
+section > div.contents > div.contentbox3 > img.parking {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 66px;
+    top: 88px;
+}
+section > div.contents > div.contentbox3 > div.parking_name {
+
+    position: absolute;
+    width: 166px;
+    height: 24px;
+    left: 21px;
+    top: 239px;
+    
+    font-family: 'S-Core Dream';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+section > div.contents > div.contentbox3 > div.parking_content {
+    position: absolute;
+    width: 186px;
+    height: 49px;
+    left: 21px;
+    top: 276px;
+    
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    
+    color: #000000;
+}
